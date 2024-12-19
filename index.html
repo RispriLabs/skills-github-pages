@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Rispri Labs - Your trusted partner in testing and solutions.">
+    <title>Rispri Labs</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        :root {
+            --primary-color: #004080;
+            --accent-color: #00bfff;
+            --secondary-color: #00264d;
+            --text-color: #ffffff;
+            --background-light: #f4f4f4;
+            --background-dark: #001a33;
+            --card-shadow: rgba(0, 0, 0, 0.2);
+        }
+    
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--secondary-color);
+            background-color: var(--background-light);
+            line-height: 1.8;
+        }
+    
+        header {
+            background-image: url('https://www.shutterstock.com/image-photo/hand-scientist-test-tube-flask-600nw-1879988884.jpg');
+            background-size: cover;
+            background-position: center;
+            color: var(--text-color);
+            text-align: center;
+            padding: 60px 20px;
+        }
+    
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: var(--secondary-color);
+        }
+    
+        header p {
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+        }
+    
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: var(--primary-color);
+            padding: 10px 0;
+        }
+    
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    
+        nav a:hover {
+            background-color: var(--accent-color);
+            border-radius: 4px;
+        }
+    
+        .content {
+            padding: 40px 20px;
+        }
+    
+        .content h2 {
+            color: var(--primary-color);
+            text-align: center;
+        }
+    
+        .mission-vision {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 30px auto;
+            max-width: 800px;
+        }
+    
+        .card {
+            background-color: var(--background-light);
+            border: 1px solid var(--accent-color);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px var(--card-shadow);
+            margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 100%;
+        }
+    
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+    
+        .card h3 {
+            color: var(--secondary-color);
+        }
+    
+        footer {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    
+        footer p {
+            margin: 0;
+        }
+    
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            header {
+                padding: 40px 15px;
+            }
+    
+            header h1 {
+                font-size: 2.5rem;
+            }
+    
+            header p {
+                font-size: 1.2rem;
+            }
+    
+            nav {
+                flex-wrap: wrap;
+            }
+    
+            nav a {
+                padding: 8px 15px;
+                font-size: 0.9rem;
+            }
+    
+            .content {
+                padding: 20px 10px;
+            }
+    
+            .mission-vision {
+                max-width: 100%;
+            }
+    
+            .card {
+                padding: 15px;
+                font-size: 0.95rem;
+            }
+    
+            footer {
+                padding: 15px;
+            }
+        }
+    
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2rem;
+            }
+    
+            header p {
+                font-size: 1rem;
+            }
+    
+            nav a {
+                padding: 6px 10px;
+                font-size: 0.8rem;
+            }
+    
+            .card {
+                padding: 10px;
+            }
+        }
+    </style>    
+</head>
+<body>
+    <header>
+        <h1>Welcome to Rispri Labs</h1>
+        <p>Your trusted partner in quality testing and water treatment solutions.</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="rispri-laboratory.html">Rispri Laboratory</a>
+        <a href="ram-chemical-enterprises.html">Ram Chemical Enterprises</a>
+        <a href="contact-us.html">Contact Us</a>
+    </nav>
+    <section class="content">
+        <h2>About Us</h2>
+        <p>At Rispri Labs, we are committed to excellence in laboratory testing and innovative water treatment solutions. We empower industries with precise data and actionable insights across water, food, soil, and material analysis. Our solutions ensure safety, quality, and sustainability at every level.</p>
+        <div class="mission-vision">
+            <div class="card">
+                <h3>Our Mission</h3>
+                <p>To deliver accurate testing and dependable water treatment solutions, fostering safety, innovation, and sustainability for our clients and communities worldwide.</p>
+            </div>
+            <div class="card">
+                <h3>Our Vision</h3>
+                <p>To be a global leader in laboratory testing and water treatment, known for our commitment to excellence, innovation, and environmental stewardship.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Rispri Labs - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
